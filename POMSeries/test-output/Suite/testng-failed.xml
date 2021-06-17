@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Accounts Page(failed)">
+    <classes>
+      <class name="com.qa.hubspot.tests.AccountsPageTest">
+        <methods>
+          <include name="searchTest"/>
+          <include name="AccountsPageSetUp"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qa.hubspot.tests.AccountsPageTest -->
+    </classes>
+  </test> <!-- Accounts Page(failed) -->
+</suite> <!-- Failed suite [Suite] -->

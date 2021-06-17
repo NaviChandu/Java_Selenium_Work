@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="tests" name="Failed suite [Automation regression suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.qa.hubspot.testlisteners.ExtentReportListener"/>
+    <listener class-name="com.qa.hubspot.testlisteners.TestAllureListener"/>
+  </listeners>
+  <test thread-count="3" parallel="tests" name="Products Info Page(failed)">
+    <classes>
+      <class name="com.qa.hubspot.tests.ProductInfoTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="verifyProductInfoTest_iMac"/>
+          <include name="productInfoSetUp"/>
+        </methods>
+      </class> <!-- com.qa.hubspot.tests.ProductInfoTest -->
+    </classes>
+  </test> <!-- Products Info Page(failed) -->
+</suite> <!-- Failed suite [Automation regression suite] -->

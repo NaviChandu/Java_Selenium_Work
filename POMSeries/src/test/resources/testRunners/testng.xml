@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation regression suite" parallel="tests"
+	thread-count="3">
+
+	<listeners>
+		<listener
+			class-name="com.qa.hubspot.testlisteners.ExtentReportListener" />
+		<listener
+			class-name="com.qa.hubspot.testlisteners.TestAllureListener" />
+	</listeners>
+
+	<test name="Login Page">
+		<classes>
+			<class name="com.qa.hubspot.tests.LoginPageTest" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Accounts Page">
+		<classes>
+			<class name="com.qa.hubspot.tests.AccountsPageTest" />
+		</classes>
+	</test> <!-- Test -->
+
+
+	<test name="Products Info Page">
+		<classes>
+			<class name="com.qa.hubspot.tests.ProductInfoTest" />
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->
