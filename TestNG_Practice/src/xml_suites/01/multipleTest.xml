@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="TestOne">
+		<classes>
+			<class name="com.annotations.Simpleannotations"></class>
+		</classes>
+	</test>
+	
+	<test name="TestTwo">
+		<classes>
+			<class name="com.Package1.TestTwo"></class>
+		</classes>
+	</test>
+</suite> <!-- Suite -->

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite1">
+	<parameter name="browserType" value="Firefox" />
+	<parameter name="os" value="123" />
+	<test name="One">
+		<classes>
+			<class
+				name="com.parameters.ParameterTest"></class>
+		</classes>
+	</test>
+</suite>

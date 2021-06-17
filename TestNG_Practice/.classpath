@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="D:/Naveen/Documents/Automation/Udemy Selenium/TestNG/jcommander-1.69.jar"/>
+	<classpathentry kind="lib" path="D:/Naveen/Documents/Automation/Udemy Selenium/TestNG/testng-6.11.jar" sourcepath="D:/Naveen/Documents/Automation/Udemy Selenium/jar/testng-6.14.3-sources.jar"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
